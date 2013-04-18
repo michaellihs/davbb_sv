@@ -4,6 +4,6 @@
 // We overwrite some properties that we want to change in the DAV BB context
 plugin.tx_jdavsv.settings {
 
-
+	controller.Event.list.template = EXT:davbb_sv/Resources/Private/Templates/Event/List.html
 
 }

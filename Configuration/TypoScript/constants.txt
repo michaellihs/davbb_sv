@@ -1,1 +1,14 @@
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:jdav_sv/Configuration/TypoScript/constants.txt">
+
+
+plugin.tx_jdavsv.settings.email.adminTo.name = Michael Knoll
+plugin.tx_jdavsv.settings.email.adminTo.email = mimi@kaktusteam.de
+plugin.tx_jdavsv.settings.email.defaultFrom.email = mimi@kaktusteam.de
+plugin.tx_jdavsv.settings.email.defaultFrom.name = Michael Knoll
+plugin.tx_jdavsv.settings.frontendPluginPid = 240
+plugin.tx_jdavsv.settings.administrationPluginPid = 243
+plugin.tx_jdavsv.settings.feUsersPid = 79
+plugin.tx_jdavsv.persistence.storagePid = 244, 79
+plugin.tx_jdavsv.persistence.classes.Tx_JdavSv_Domain_Model_FeUser.newRecordStoragePid = 79
+plugin.tx_jdavsv.persistence.classes.Tx_JdavSv_Domain_Model.newRecordStoragePid = 244
+plugin.tx_jdavsv.settings.fe_users.defaultFeGroup = 1
