@@ -1,0 +1,9 @@
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:jdav_sv/Configuration/TypoScript/setup.txt">
+
+
+// We overwrite some properties that we want to change in the DAV BB context
+plugin.tx_jdavsv.settings {
+
+
+
+}
